@@ -1,6 +1,6 @@
-function qualityscore  = brisquescore(imdist) %计算质量得分
+function qualityscore  = brisquescore(imdist) %计算得分
 
-if(size(imdist,3)==3)   
+if(size(imdist,3)==3)   % 高斯滤波模板
     imdist = uint8(imdist);
     imdist = rgb2gray(imdist);
 end

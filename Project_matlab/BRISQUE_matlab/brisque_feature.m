@@ -1,4 +1,4 @@
-function feat = brisque_feature(imdist)
+function feat = brisque_feature(imdist) % 特征值提取
 
 %------------------------------------------------
 % Feature Computation
