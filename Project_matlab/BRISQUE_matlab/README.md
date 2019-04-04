@@ -1,5 +1,4 @@
 # Output Test <br>
-========================
 input=imread('testimage1.bmp') <br>
 output=97.4301 <br>
 <br>  
