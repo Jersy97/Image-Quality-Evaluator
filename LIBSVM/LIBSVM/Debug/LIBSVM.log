@@ -1,0 +1,14 @@
+﻿生成启动时间为 2019/4/7 11:39:46。
+     1>项目“F:\BRISQUE\LIBSVM\LIBSVM\LIBSVM.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\LIBSVM.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /X /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt svm.cpp
+         svm.cpp
+     1>f:\brisque\libsvm\libsvm\svm.cpp(1): fatal error C1034: math.h: 不包括路径集
+     1>已完成生成项目“F:\BRISQUE\LIBSVM\LIBSVM\LIBSVM.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.84
