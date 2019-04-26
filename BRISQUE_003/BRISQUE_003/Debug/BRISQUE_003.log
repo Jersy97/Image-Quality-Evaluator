@@ -1,0 +1,181 @@
+﻿生成启动时间为 2019/4/26 14:25:32。
+     1>项目“F:\BRISQUE\BRISQUE_003\BRISQUE_003\BRISQUE_003.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\BRISQUE_003.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\BRISQUE_003.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt brisque.cpp computescore.cpp main.cpp psnr.cpp ssim.cpp svm.cpp trainmodel.cpp
+         trainmodel.cpp
+     1>f:\brisque\brisque_003\brisque_003\brisque.h(68): warning C4018: “<”: 有符号/无符号不匹配
+                 f:\brisque\brisque_003\brisque_003\trainmodel.cpp(73): 参见对正在编译的函数 模板 实例化“void printVectortoFile<double>(const char *,std::vector<_Ty>,float)”的引用
+                 with
+                 [
+                     _Ty=double
+                 ]
+         svm.cpp
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(53): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“vsprintf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2643): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2646): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : 参见“strdup”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2770): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2774): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2792): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2809): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2811): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2813): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2815): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2817): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2823): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2830): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2837): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2844): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2851): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2875): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2878): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : 参见“strdup”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2915): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2918): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2944): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2948): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2954): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>f:\brisque\brisque_003\brisque_003\svm.cpp(2955): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+         ssim.cpp
+         psnr.cpp
+         main.cpp
+         computescore.cpp
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(9): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\computescore.cpp(52): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         brisque.cpp
+     1>f:\brisque\brisque_003\brisque_003\brisque.cpp(64): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\brisque\brisque_003\brisque_003\brisque.cpp(73): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\brisque\brisque_003\brisque_003\brisque.cpp(73): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\brisque\brisque_003\brisque_003\brisque.cpp(197): warning C4305: “初始化”: 从“double”到“float”截断
+     1>f:\brisque\brisque_003\brisque_003\brisque.cpp(198): warning C4305: “初始化”: 从“double”到“float”截断
+         正在生成代码...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BRISQUE_003.exe.embed.manifest.res" Debug\BRISQUE_003_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\BRISQUE\BRISQUE_003\Debug\BRISQUE_003.exe" /INCREMENTAL /NOLOGO opencv_ml249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_objdetect249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_nonfree249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BRISQUE_003.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\BRISQUE\BRISQUE_003\Debug\BRISQUE_003.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\BRISQUE\BRISQUE_003\Debug\BRISQUE_003.lib" /MACHINE:X86 Debug\BRISQUE_003.exe.embed.manifest.res
+         Debug\brisque.obj
+         Debug\computescore.obj
+         Debug\main.obj
+         Debug\psnr.obj
+         Debug\ssim.obj
+         Debug\svm.obj
+         Debug\trainmodel.obj
+       Manifest:
+         正在删除文件“Debug\BRISQUE_003.exe.embed.manifest”。
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BRISQUE_003.exe.embed.manifest" /manifest Debug\BRISQUE_003.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BRISQUE_003.exe.embed.manifest.res" Debug\BRISQUE_003_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\BRISQUE\BRISQUE_003\Debug\BRISQUE_003.exe" /INCREMENTAL /NOLOGO opencv_ml249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_objdetect249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_nonfree249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BRISQUE_003.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\BRISQUE\BRISQUE_003\Debug\BRISQUE_003.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\BRISQUE\BRISQUE_003\Debug\BRISQUE_003.lib" /MACHINE:X86 Debug\BRISQUE_003.exe.embed.manifest.res
+         Debug\brisque.obj
+         Debug\computescore.obj
+         Debug\main.obj
+         Debug\psnr.obj
+         Debug\ssim.obj
+         Debug\svm.obj
+         Debug\trainmodel.obj
+         BRISQUE_003.vcxproj -> F:\BRISQUE\BRISQUE_003\Debug\BRISQUE_003.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\BRISQUE_003.unsuccessfulbuild”。
+         正在对“Debug\BRISQUE_003.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\BRISQUE\BRISQUE_003\BRISQUE_003\BRISQUE_003.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.81
